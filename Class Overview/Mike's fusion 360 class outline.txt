@@ -1,0 +1,149 @@
+ Module 1 - The very basics- 2 hours
+	Tour of the user interface
+		- Data panel
+			- Projects, folders within projects
+			- Libraries
+			- Samples
+		Component Browser
+		Timeline
+		Workspaces (Design, genreative Design, Render, ANimation, SImulation, Manufacture, Drawing)
+			menu ribbon and sub-menus
+		user preferences
+		menus at the bottom
+		
+	Fusion 360 uses a "component" model
+		- Every design starts as a single component. When you save the design the top level component gets that same name
+		- Components can also be created under the top level component. 
+			- These have all the same properties as the top level component.
+			- These can be exported from Fusion as "complete Fusion 360 designs.
+			- You can have multiple levels of sub components in your design (which is a good practive if you have a lot of parts)
+		- As the design is created, "folders" are created within any component to contain stuff like 
+			- sketches: 2D diagrams used to capture details of the design. 
+			- bodies: solid 3D entities
+			- joint otigins: user defined places where parts will connect to other parts
+			- Connections between components that are part of this component.
+			- Sub-components.
+		- For any component other than the top level, rename it by double clicking on it. 
+		- When you create new things (bodies, sketches, etc) they are located in the "currently active componnet"
+			- The active component will be shown as a solid and other parts at the same level or above it will be in wireframe outline.
+			- The active component is indicated by a filled in circle to the right of it's name.
+	
+	Steps in a Fusion 360 design (for a 3D printed part, but most of this applies to other design too)
+		- Make a new component (or skip if your design has only one part)
+		- Make one or more sketches
+		- use the sketch with some tools to make solid bodies
+		- make more sketches to add details to the body
+		- Merge bodies as you go along, or at the end
+		- Put finishing touches on your body using the modify tools
+		- do the above steps for each part
+		- Call it "first prototype" and save the final body for each part as an STL file
+		- Print it and test it, then retun to Fusion to adjust as needed based on testing.
+		
+	Where is my part file stored
+		- In the Fusion cloud
+			- In your personal workspace
+			- In a team space you control
+			- In a team space someone else controls (if you have a pro license)
+		- All saved versions of your design in teh cloud are preserved unless you delete them. 
+		- On your personal computer (if you export the design)
+		
+
+	Making a simple thing with two parts - A drink coaster : PLA main part sitting on TPU feet
+		Create a component names "coaster"
+			Create a sketch for the main part. 
+				- Make a squareish  shape with 4 lines
+				- Constrain the lines into a quadra-lateral
+				- Add four circles for the feet locations
+				- Fix one circle
+				- Constrain the corners to be perpendicular
+				- Add dimensions and additional constraints until it is fully constrained.
+			Extrude to 3mm thick
+		Create acomponent named foot
+			- sketch and extrude
+		Copy foot 3 times
+		Join feet to based
+		
+	Recommended homework
+		
+
+
+
+Getting the most from Fusion
+
+
+Module 2 - God methods for making things  1 hour
+	Sketching strategies and techniques
+		- master sketches
+		- Constraints
+			- What are "constraints" and ewhya re they important
+			- Fusion assumed constraints and constraints you place
+			- Constrain icons and how to use them
+			- "Fully constrained" sketches and why you dont always need to be fully constrained
+		- points on top of other points - which one gets sued for teh constraint? Avoid this hassle
+		- fix/unfix
+		- hole to egde - dimensioning center vs to a tangent line
+		- constraining holes
+		- patterns 
+		- mirroring
+		- dimensioning - avoid points where practical
+		- projections
+		- Start by drawing it out of proportion and not too close to other things
+
+	Components vs bodies
+		Bodies
+			- just 3D shapes within a component
+			- can be saved as an stl
+		Components
+			-What you make when you start FUsion 360
+			- a wholly contained part that is a separate "container" 
+				- has it's own coordinate system
+				- has it's own material
+				- can have it's own sketches
+				- has it's own bodies
+				- Can contain other components
+			- Can be assembled to other parts using joints
+			- can be exported as a Fusion file
+			- can be inserted into other fusion designs
+		Importing stl objects
+	
+	Need to add an example here
+
+Module 3 - The lazy designer - Take control 1 hour
+	Partameterized designs
+		- F360 is a "Parametric Design System". means everything is built up step by step and those steps are recorded. You can change something in an early step and changes will repple thorugh the rest of your design. 
+		This is kind of like an advanced "undo" function, where you don't have to back up each step, but can jump back in time to change something you wish you did differently
+		 - Making bodies directly (and why it usually isnt a good idea.
+	
+	The timelien is your friend
+	
+	Need an example for this module
+	 
+
+Module 4 - Connecting to the real world 60 minutes
+	Modeling existing devices
+		- A strategy for practicing Fusion 360 (like playing an existing song on the piano before you try to compose your own).
+		- Good tools to have - Calipers, camera
+
+
+	Using a canvas to capture a shape.
+		- The parallax problem adn how to deal with it (I like GIMP)
+		- tracing shapes
+	
+	
+Module 5 - Designing for making - 1 hour
+	3D parts
+	Machined parts
+	
+
+Module 6 -  Machining Controlling a CNC - 1 hour
+	Setting up Fusion for your machine
+	Tools and tool paths
+	Post processing
+
+
+
+
+Things that still need a module
+	- You project space in the web and what you can do there.
+	- Excplanation of Teams
+	
