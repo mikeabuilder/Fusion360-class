@@ -1,4 +1,22 @@
 Module 2 - God methods for making things  1 hour
+	
+	Components vs bodies
+		Bodies
+			- just 3D shapes within a component
+			- can be saved as an stl
+		Components
+			-What you make when you start FUsion 360
+			- a wholly contained part that is a separate "container" 
+				- has it's own coordinate system
+				- has it's own material
+				- can have it's own sketches
+				- has it's own bodies
+				- Can contain other components
+			- Can be assembled to other parts using joints
+			- can be exported as a Fusion file
+			- can be inserted into other fusion designs
+		Importing stl objects	
+	
 	Sketching strategies and techniques
 		- master sketches
 		- Constraints
@@ -16,21 +34,5 @@ Module 2 - God methods for making things  1 hour
 		- projections
 		- Start by drawing it out of proportion and not too close to other things
 
-	Components vs bodies
-		Bodies
-			- just 3D shapes within a component
-			- can be saved as an stl
-		Components
-			-What you make when you start FUsion 360
-			- a wholly contained part that is a separate "container" 
-				- has it's own coordinate system
-				- has it's own material
-				- can have it's own sketches
-				- has it's own bodies
-				- Can contain other components
-			- Can be assembled to other parts using joints
-			- can be exported as a Fusion file
-			- can be inserted into other fusion designs
-		Importing stl objects
-	
+
 	Example - door hinge

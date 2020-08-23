@@ -10,10 +10,10 @@ For first timers
 - The basic steps in a Fusion360 design - browser, timeline, sketches... oh my!
 - Let's make something real!  A drink coaster.
 
-### Module 2 - Good methods for making things
+### Module 2 - Sketches and Components - methods for making things
 
-- Sketching strategies and techniques -  Making sketches that won't drive you crazy.
 - Components vs bodies -  why I like components
+- Sketching strategies and techniques -  Making sketches that won't drive you crazy.
 - Let's make something real - a door hinge
 
 ### Module 3 -  The lazy designer - taking control
