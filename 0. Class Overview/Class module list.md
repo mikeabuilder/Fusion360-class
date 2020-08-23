@@ -27,7 +27,7 @@ For first timers
 - Modeling existing devices
 - Using a canvas to capture shapes
 
-Module 5 - Design for Making 
+### Module 5 - Design for Making 
 
 - 3D printing 
 - Machined parts
