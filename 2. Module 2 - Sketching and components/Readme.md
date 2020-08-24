@@ -2,6 +2,10 @@
 
 In this module, we'll cover two major topics which will help new Fusion360 users make better designs.
 
+#### Student prep: 
+
+This class assumes that you have a minimal of Fusion 360 and can navigate around the user interface, rotate and zoom on parts, and start sketches.  It is recommended that you are running Fusion360 during class so that you can follow along with the design steps.
+
 ### Fusion 360 Component model
 
 The component model (at least, that's what I call it), is valuable to understand because "components" are the most basic building blocks of a Fusion design.  You can do a lot with Fusion without  understanding the component model, but your designs will be cleaner (and you'll probably be less frustrated) if you understand the component model.
