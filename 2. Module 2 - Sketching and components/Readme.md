@@ -18,4 +18,4 @@ Sketches are at the core of designing in Fusion360, and my aim in this part of t
 
 During the class we'll design a door-hinge to show and practice what we're learning.
 
-![](https://github.com/mikeabuilder/Fusion360-class/blob/master/2.%20Module%202%20-%20Sketching%20and%20components/Door%20Hinge%20Model.jpg)
+![](https://github.com/mikeabuilder/Fusion360-class/blob/master/2.%20Module%202%20-%20Sketching%20and%20components/Door%20hinge%20model.jpg)
