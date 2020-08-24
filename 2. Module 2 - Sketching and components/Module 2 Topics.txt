@@ -1,31 +1,34 @@
-Module 2 - God methods for making things  1 hour
+Module 2 - Start making stuff - Components and Sketching
 	
 	Components vs bodies
 		Bodies
+			- "just a 3D solid"
 			- just 3D shapes within a component
-			- can be saved as an stl
-		Components
-			-What you make when you start FUsion 360
-			- a wholly contained part that is a separate "container" 
+			- can be saved as an stl file, or imported from an stl file
+		Components - "THE" Fusion 360 model 
+			- The minimum Fusion 360 "thing"
+			- A container for a design (or part of a design)
 				- has its own coordinate system
-				- has its own material
-				- can have its own sketches
-				- has its own bodies
+				- Can have:
+					- Its own material
+					- Its own sketches
+					- Its own bodies
 				- Can contain other components
+					- And joints between them
 			- Can be assembled to other parts using joints
-			- can be exported as a Fusion file
-			- can be inserted into other fusion designs
-		Importing stl objects	
+			- Can be exported as a Fusion file
+			- Can be inserted into other fusion designs
 	
 	Sketching strategies and techniques
-		- master sketches
+		- Master sketches
 		- Constraints
 			- What are "constraints" and why are they important
 			- Fusion assumed constraints and constraints you place
 			- Constraint icons and how to use them
 			- "Fully constrained" sketches and why you dont always need to be fully constrained
+		- Fix/unfix	
+		
 		- points on top of other points - which one gets used for the constraint? Avoid this hassle
-		- fix/unfix
 		- hole to egde - dimensioning center vs to a tangent line
 		- constraining holes
 		- patterns 
