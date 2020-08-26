@@ -1,4 +1,6 @@
  Module 1 - The very basics- 2 hours
+	Fusion 360 is a Parametric Design system - wtf does that mean?
+	
 	Tour of the user interface
 		- Data panel
 			- Projects, folders within projects
@@ -46,7 +48,9 @@
 			- In a team space someone else controls (if you have a pro license)
 		- All saved versions of your design in teh cloud are preserved unless you delete them. 
 		- On your personal computer (if you export the design)
-		
+	
+	The right-click
+	The three button mouse
 
 	Making a simple thing with two parts - A drink coaster : PLA main part sitting on TPU feet
 		Create a component names "coaster"

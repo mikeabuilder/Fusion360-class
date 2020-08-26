@@ -20,22 +20,42 @@ Module 2 - Start making stuff - Components and Sketching
 			- Can be inserted into other fusion designs
 	
 	Sketching strategies and techniques
-		- Master sketches
+		- Where sketches live in the browser 
+			- always in a component
+			- I like most sketches to live in the component they are for
+			- I put "master sketches" outside components
+			- Name your sketches if there are a lot of them.
+		
+		- Line types in sketches
+			- Regular lines 
+			- Construction lines
+			- Lines (or arcs) are "intifite" and also ended by points
+			- Projected lines (linked or unlinked) - purple unless they are broken, then orange. 
+			
+		- The create menu
+		
+		-The modify menu
+		
 		- Constraints
 			- What are "constraints" and why are they important
+			- Fix/unfix - the strongest constraint - fixed items areshow in green.
 			- Fusion assumed constraints and constraints you place
-			- Constraint icons and how to use them
+			- Constraint types - 
+				- Dimensions
+				- Geometric constraints
+			- Constraint icons on your sketch and how to use them
 			- "Fully constrained" sketches and why you dont always need to be fully constrained
-		- Fix/unfix	
-		
-		- points on top of other points - which one gets used for the constraint? Avoid this hassle
-		- hole to egde - dimensioning center vs to a tangent line
-		- constraining holes
-		- patterns 
-		- mirroring
-		- dimensioning - avoid points where practical
-		- projections
-		- Start by drawing it out of proportion and not too close to other things
+			
+		- My sketching best practices
+			- More geometric constraints, fewer dimensions
+			- Constructions lines are really helpful
+			- Avoid dimensioning to points
+			- Avoid "coincident" circle centers, bettter to use concentric
+			- Use a hole to lock your constraints, not the origin. 
+			- hole to edge - dimensioning center vs to a tangent line
+			- Start by drawing it out of proportion and not too close to other things
+
+
 
 
 	Example - door hinge
