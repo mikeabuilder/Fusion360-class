@@ -1,4 +1,6 @@
 Module 2 - Start making stuff - Components and Sketching
+	https://github.com/mikeabuilder/Fusion360-class
+	
 	
 	Components vs bodies
 		Bodies
