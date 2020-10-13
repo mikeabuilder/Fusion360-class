@@ -114,7 +114,7 @@ Module 3 - The lazy designer - Take control 1 hour
 		This is kind of like an advanced "undo" function, where you don't have to back up each step, but can jump back in time to change something you wish you did differently
 		 - Making bodies directly (and why it usually isnt a good idea.
 	
-	The timelien is your friend
+	The timeline is your friend
 	
 	Example - 3D printable allen wrench handles
 	 

@@ -1,0 +1,63 @@
+Module 2 - Start making stuff - Components and Sketching
+	https://github.com/mikeabuilder/Fusion360-class
+	
+	
+	Components vs bodies
+		Bodies
+			- "just a 3D solid"
+			- just 3D shapes within a component
+			- can be saved as an stl file, or imported from an stl file
+		Components - "THE" Fusion 360 model 
+			- The minimum Fusion 360 "thing"
+			- A container for a design (or part of a design)
+				- has its own coordinate system
+				- Can have:
+					- Its own material
+					- Its own sketches
+					- Its own bodies
+				- Can contain other components
+					- And joints between them
+			- Can be assembled to other parts using joints
+			- Can be exported as a Fusion file
+			- Can be inserted into other fusion designs
+	
+	Sketching strategies and techniques
+		- Where sketches live in the browser 
+			- always in a component
+			- I like most sketches to live in the component they are for
+			- I put "master sketches" outside components
+			- Name your sketches if there are a lot of them.
+		
+		- Line types in sketches
+			- Regular lines 
+			- Construction lines
+			- Lines (or arcs) are "intifite" and also ended by points
+			- Projected lines (linked or unlinked) - purple unless they are broken, then orange. 
+			
+		- The create menu
+		
+		-The modify menu
+		
+		- Constraints
+			- What are "constraints" and why are they important
+			- Fix/unfix - the strongest constraint - fixed items areshow in green.
+			- Fusion assumed constraints and constraints you place
+			- Constraint types - 
+				- Dimensions
+				- Geometric constraints
+			- Constraint icons on your sketch and how to use them
+			- "Fully constrained" sketches and why you dont always need to be fully constrained
+			
+		- My sketching best practices
+			- More geometric constraints, fewer dimensions
+			- Constructions lines are really helpful
+			- Avoid dimensioning to points
+			- Avoid "coincident" circle centers, bettter to use concentric
+			- Use a hole to lock your constraints, not the origin. 
+			- hole to edge - dimensioning center vs to a tangent line
+			- Start by drawing it out of proportion and not too close to other things
+
+
+
+
+	Example - door hinge
